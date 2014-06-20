@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gdl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP580.tmp" with contents
+[
+/nologo /MLd /W3 /GX /O1 /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/Gdl.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\dstar\Gdl\output\graphic\map\map.cpp"
+"D:\dstar\Gdl\output\graphic\gfm\Gfm.cpp"
+"D:\dstar\Gdl\output\graphic\fbuffer\ptc\convert.c"
+"D:\dstar\Gdl\output\graphic\fbuffer\ptc\ddraw.c"
+"D:\dstar\Gdl\output\graphic\fbuffer\ptc\tinyptc.c"
+"D:\dstar\Gdl\output\graphic\fbuffer\fbuffer.cpp"
+"D:\dstar\Gdl\output\graphic\anim.cpp"
+"D:\dstar\Gdl\output\graphic\text.cpp"
+"D:\dstar\Gdl\input\xml\xml.cpp"
+"D:\dstar\Gdl\input\mod\mdpl.cpp"
+"D:\dstar\Gdl\input\key.cpp"
+"D:\dstar\Gdl\input\pcx.cpp"
+"D:\dstar\Gdl\input\tga.cpp"
+"D:\dstar\Gdl\misc\fileio.cpp"
+"D:\dstar\Gdl\misc\freelist.cpp"
+"D:\dstar\Gdl\misc\log.cpp"
+"D:\dstar\Gdl\misc\misc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP580.tmp" 
+Creating temporary file "C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP581.tmp" with contents
+[
+/nologo /out:"Debug\Gdl.lib" 
+.\Debug\Fmusic.obj
+.\Debug\Fsound.obj
+.\Debug\minifmodio.obj
+.\Debug\mixer_clipcopy.obj
+.\Debug\mixer_fpu_ramp.obj
+.\Debug\music_formatxm.obj
+.\Debug\system_file.obj
+.\Debug\myMixr.obj
+.\Debug\map.obj
+.\Debug\Gfm.obj
+.\Debug\minimal.obj
+.\Debug\convert.obj
+.\Debug\ddraw.obj
+.\Debug\tinyptc.obj
+.\Debug\fbuffer.obj
+.\Debug\anim.obj
+.\Debug\text.obj
+.\Debug\unrarlib.obj
+.\Debug\xml.obj
+.\Debug\mdpl.obj
+.\Debug\key.obj
+.\Debug\pcx.obj
+.\Debug\tga.obj
+.\Debug\fileio.obj
+.\Debug\freelist.obj
+.\Debug\log.obj
+.\Debug\misc.obj
+.\Debug\tablesMath.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP581.tmp"
+<h3>Output Window</h3>
+Compiling...
+map.cpp
+D:\dstar\Gdl\output\graphic\map\map.cpp(4) : fatal error C1085: Cannot write precompiled header file: 'Debug/Gdl.pch': Espace insuffisant sur le disque.
+
+Gfm.cpp
+D:\dstar\Gdl\output\graphic\gfm\Gfm.cpp(6) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+convert.c
+D:\dstar\Gdl\output\graphic\fbuffer\ptc\convert.c(15) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+ddraw.c
+D:\dstar\Gdl\output\graphic\fbuffer\ptc\ddraw.c(20) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+tinyptc.c
+D:\dstar\Gdl\output\graphic\fbuffer\ptc\tinyptc.c(12) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+fbuffer.cpp
+D:\dstar\Gdl\output\graphic\fbuffer\fbuffer.cpp(7) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+anim.cpp
+D:\dstar\Gdl\output\graphic\anim.cpp(7) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+text.cpp
+D:\dstar\Gdl\output\graphic\text.cpp(6) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+xml.cpp
+D:\dstar\Gdl\input\xml\xml.cpp(4) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+mdpl.cpp
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(8) : error C2011: 'note' : 'struct' type redefinition
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(15) : error C2011: 'ptn' : 'struct' type redefinition
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(21) : error C2011: 'mod' : 'struct' type redefinition
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(31) : error C2011: 'spl' : 'struct' type redefinition
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(40) : error C2572: 'getNoteValue' : redefinition of default parameter : parameter 2
+        D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(40) : see declaration of 'getNoteValue'
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(41) : error C2572: 'getNoteTxt' : redefinition of default parameter : parameter 2
+        D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(41) : see declaration of 'getNoteTxt'
+D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(43) : error C2572: 'showPtn' : redefinition of default parameter : parameter 2
+        D:\dstar\Gdl\input\mod\../.././input/mod/mdpl.h(43) : see declaration of 'showPtn'
+key.cpp
+D:\dstar\Gdl\input\key.cpp(7) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+pcx.cpp
+D:\dstar\Gdl\input\pcx.cpp(4) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+tga.cpp
+D:\dstar\Gdl\input\tga.cpp(3) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+fileio.cpp
+D:\dstar\Gdl\misc\fileio.cpp(6) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+freelist.cpp
+D:\dstar\Gdl\misc\freelist.cpp(6) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+log.cpp
+D:\dstar\Gdl\misc\log.cpp(2) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+misc.cpp
+D:\dstar\Gdl\misc\misc.cpp(6) : fatal error C1083: Cannot open precompiled header file: 'Debug/Gdl.pch': Permission denied
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Gdl.lib - 23 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
